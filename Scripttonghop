@@ -1,0 +1,117 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "PhamTrieu Hub",
+         Animation = "Tik tok: Zen"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=107489584166512",
+       Size = {55, 55},
+       Color = Color3.fromRGB(10, 12, 11),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(245, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script King legacy"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Tsua Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/king%20legacy"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "TC Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://github.com/KV-TCode/DonateMe/releases/download/TC_Hub/Loader.lua"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "Zen Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua", true))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Hyper Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+  end
+  })
+  
+   AddButton(Tab5o, {
+     Name = "Arc Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+getgenv().CustomDistance = 10 -- For Bug Can't Swipe Distance
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "BT Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
+  end
+  })
+  
+  AddButton(Tab7o, {
+     Name = "Zee Hub",
+    Callback = function()
+	  local Settings = {
+loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))()
+  end
+  })
