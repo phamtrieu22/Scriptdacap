@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "PhamTrieu Hub",
-         Animation = "Tik tok: Zen"
+         Animation = "Pham van trieu"
          },
         Key = {
         KeySystem = false,
@@ -22,8 +22,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=107489584166512",
-       Size = {55, 55},
-       Color = Color3.fromRGB(10, 12, 11),
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
        StrokeColor = Color3.fromRGB(245, 0, 0)
